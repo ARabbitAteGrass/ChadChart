@@ -11431,8 +11431,14 @@ html {
 }
 
 .masthead {
+  background-image: url(https://cms.chadchart.com/uploads/20220426_BBKK_COVER_WEB_02_1440_600_84b3fd6740.jpeg);
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.75;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
